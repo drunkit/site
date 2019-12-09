@@ -1,0 +1,73 @@
+<h1>Message Information</h1>
+<p style="margin: 0px">More information about this message</p><br>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="label" width="150" align="right">
+			Posted by:
+		</td>
+		<td class="label" width="50">
+			&nbsp;
+		</td>
+		<td class="label">
+			[var name=FriendlyName] ([var name=Username])
+		</td>
+	</tr>
+	<tr>
+		<td class="label" width="150" align="right">
+			Message ID:
+		</td>
+		<td class="label" width="50">
+			&nbsp;
+		</td>
+		<td class="label">
+			[var info=threadNumber]
+		</td>
+	</tr>
+	<tr>
+		<td class="label" width="150" align="right">
+			Date posted:
+		</td>
+		<td class="label" width="50">
+			&nbsp;
+		</td>
+		<td class="label">
+			[var parseTime=Time?longFormat]
+		</td>
+	</tr>
+	<tr>
+		<td class="label" width="150" align="right">
+			IP address:
+		</td>
+		<td class="label" width="50">
+			&nbsp;
+		</td>
+		<td class="label">
+			[var protected=IP]
+		</td>
+	</tr>
+	<tr>
+		<td class="label" width="150" align="right">
+			User Agent:
+		</td>
+		<td class="label" width="50">
+			&nbsp;
+		</td>
+		<td class="label">
+			[var protected=UserAgent]
+		</td>
+	</tr>
+	<tr>
+		<td class="label" width="150" align="right">
+			Further comments:
+		</td>
+		<td class="label" width="50">
+			&nbsp;
+		</td>
+		<td class="label">
+			[var info=Comment]
+		</td>
+	</tr>
+</table>
+
+<p><a href="[var info=thisFileName]?a=view&amp;msg=[var info=threadNumber]">Back to the message</a></p>

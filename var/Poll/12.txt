@@ -1,0 +1,13 @@
+answer1=4
+answer2=1
+1=Making love to a beautiful lady/man/animal equivalent
+answer3=1
+2=Drinking yourself stupid
+answer4=2
+3=Trying to solve the problem
+answer5=0
+4=Trying to leave Earth via a bin rocket
+answer6=2
+5=Seeing family and friends
+6=Visiting Mike
+question=The end of the world is definitely coming, how would you spend your time?

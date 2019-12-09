@@ -1,0 +1,7 @@
+UserName=Alex B
+Description=Drunkit needs some new articles...
+Title=Half Way
+Date=1045057248
+Comments=;Matt:Sounds like the life of Billy Bunter!;Alex B:Who? No, actually, don't bother answering that one.
+NumberOfComments=2
+Article=It strikes me that the Drunkit article board hasn't had any additions in a while, and I'm bored and don't want to get on with my work (of which I have lots) so I'm going to write one, even if it's nopt a very interesting one. The basic problem is that I don't go out and get drunk very often, because for some peculiar reason my supervisiors keep giving me all this 'work' stuff to do, so I'll have to write about something else instead...%0A%0AMy college had Halfway Hall last night, which is a huge meal for all the second years in the uni because we're half way through our degrees (eek! Scary thought!). %0AIt's a very big posh 4-courses- black-tie-and-gown sort of thing, but due to the fact that it included a bottle of red and of white wine between two people and free sherry beforehand and port afterwards, it ended up being a little more rowdy than some people had expected. %0A%0ARather a lot of glass got broken, there was a chocolate cake fight (quite a large one, there are about 200 people in my year at Fitz) and my friend Angharad ended up being carried out by her boyfriend with a daffodil stuck behind her ear singing the Welsh National Anthem.%0AThere are also reports of the college Master dancing the Time Warp with the Dean and a yellow umbrella, but these are as yet unsubstantiated.

@@ -1,0 +1,12 @@
+answer1=6
+answer2=5
+1=Sell T-Shirts
+answer3=1
+answer4=1
+2=Organise a massive round
+3=Make pots and pans
+4=Promote the environment
+answer6=5
+5=Go into showbusiness
+6=Talk more about Mike
+Question=Drunkit should do this first...

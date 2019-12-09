@@ -1,0 +1,9 @@
+answer1=3
+answer2=1
+1=No
+answer3=3
+2=Yes, but not drunkeness
+answer4=1
+3=Yes
+4=Yes, only if you get retarded
+question=Drinking is required for a good night out

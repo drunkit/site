@@ -1,0 +1,25 @@
+<hr style="width: 25%; text-align: left; background-color: red; color: red; border: 0px; height: 2px;">
+<a href="[var info=thisFileName]?a=edit&amp;msg=[var info=threadNumber]">Edit</a> this message. 
+<a href="[var info=thisFileName]?a=info&amp;msg=[var info=threadNumber]">More info</a> about this message.
+<table cellpadding="0" cellspacing="5" border="0">
+	<tr>
+		<td style="text-align: center">
+			<form action="[var info=thisFileName]" method="get" style="margin: 0px; position: relative;">
+				<p style="margin: 0px">
+					<input type="hidden" name="a" value="reply">
+					<input type="hidden" name="msg" value="[var info=threadNumber]">
+					[var htmlButton=submit?Reply]
+				</p>
+			</form>
+		</td>
+		[optional case=LinksFrom]<td style="text-align: center"><td><form action="[var info=thisFileName]" method="get" style="margin: 0px; position: relative;"><p style="margin: 0px"><input type="hidden" name="a" value="view"><input type="hidden" name="msg" value="[var name=LinksFrom]">[var htmlButton=submit?Previous Message]</p></form></td>[endOptional]
+		<td style="text-align: center">
+			<form action="[var info=thisFileName]" method="get" style="margin: 0px; position: relative;">
+				<p style="margin: 0px">
+					<input type="hidden" name="a" value="viewall">
+					[var htmlButton=submit?Message Board]
+				</p>
+			</form>
+		</td>
+	</tr>
+</table>

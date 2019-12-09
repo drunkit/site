@@ -1,0 +1,9 @@
+answer1=3
+answer2=2
+1=Id take the risk for the sweet goodness
+answer3=0
+2=Id take the safer option of class A drugs
+answer4=2
+3=Suicide.  Whats the point?
+4=Id sober up
+question=If alcohol was found to give a high chance of cancer...

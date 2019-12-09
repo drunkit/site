@@ -1,0 +1,8 @@
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.2.1 (MingW32)
+Comment: A revocation certificate should follow
+
+iEkEIBECAAkFAj4MiF8CHQIACgkQYDOiLSMHunSoNgCffgVma3x8xXBHTG1W54sY
+2DqrAy0AnAvkloljJR0m97Q2r5MkXhLJ+kYc
+=Ynlh
+-----END PGP PUBLIC KEY BLOCK-----

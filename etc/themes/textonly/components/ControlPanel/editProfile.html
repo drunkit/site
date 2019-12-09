@@ -1,0 +1,43 @@
+<h1>Edit Profile</h1>
+<p style="margin: 0px">Change your Drunkit settings.<p>
+
+<form action="controlPanel.cgi" method="post">
+	<input type="hidden" name="area" value="changeProfile">
+
+	<table width="300" cellspacing="5" cellpadding="0" border="0">
+		<tr>
+			<td width="200" class="label" align="right">
+				Alias:
+			</td>
+			<td>
+				<input type="text" name="FriendlyName" class="cooledit" size="25" value="[var userInfo=FriendlyName]">
+			</td>
+		</tr>
+		<tr>
+			<td width="200" class="label" align="right">
+				Email:
+			</td>
+			<td>
+				<input type="text" name="Email" class="cooledit" size="25" value="[var userInfo=Email]">
+			</td>
+		</tr>
+		<tr>
+			<td width="200" class="label" align="right" valign="top">
+				Profile:
+			</td>
+			<td>
+				<textarea name="profile" class="cooledit" rows="3" cols="25">[var userInfo=Profile]</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td width="200" class="label" align="right" valign="top">
+				&nbsp;
+			</td>
+			<td>
+				[var htmlButton=submit?Update]
+			</td>
+		</tr>
+	</table>
+</form>
+
+<p>Go back to the <a href="controlPanel.cgi">control panel</a>.

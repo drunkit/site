@@ -1,0 +1,7 @@
+article=
+numberofcomments=
+description=
+username=bobby
+title=
+date=1059318272
+comments=;bobby:Its meant to say ouzo and coke, not ouzo and cock!;jimbo:I'm still drunk now. %0A%0A%0ATrying to write my own article. ;jimbo:ok my article never materialised.%0A%0AAt least I know I went to mission. Thats all we know about last saturday. We found out the Ouso was out of date so it probably turned into crazy juice!;joeyjojo:What can I say - Bob, you have lovely hair! HA HA!

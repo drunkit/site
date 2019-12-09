@@ -1,0 +1,7 @@
+article=what's wrong with this picture?%0AI keep getting the "sign in" box when ever I go to the messages section...Oh, Sweden's cold.%0AI'd post more...technical difficulties...And exams...
+numberofcomments=1
+description=what's wrong with this picture?
+title=what's wrong with this picture?
+username=philip ball
+comments=;jimbo:You have to sign up another account because its two seperate thingys. 
+date=1066235438

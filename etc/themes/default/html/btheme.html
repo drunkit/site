@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en_GB">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>[var info=Title]</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<style>
+#wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#top_nav {
+    background-color: #3975A6;
+    color: white;
+/*    border-bottom: 1px #D9D9D9 solid;*/
+    padding: 0;
+    background-image: url(https://drunkit.co.uk/etc/themes/default/html/images/drunkitSecondTransition.jpg);
+    background-repeat: no-repeat;
+    background-position: top 0 left 192px;
+}
+
+#top_nav_brand {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#top_nav_logo {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#sidebar {
+    min-height: 100vh;
+    background-color: #3975A6;
+    color: white;
+    margin-left: -130px;
+    transition: margin .25s ease-out;
+    min-width: 130px;
+    max-width: 130px;
+}
+
+#topmarker {
+    display: none;
+}
+#toptransition {
+    display: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar {
+    margin-left: 0;
+  }
+  #wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+
+
+	</style>
+</head>
+<body>
+<!-- Top -->
+<nav class="navbar navbar-dark navbar-expand-md sticky-top" id="top_nav">
+    <a class="navbar-brand" href="#" id="top_nav_brand">
+        <img src="https://drunkit.co.uk/etc/themes/default/html/images/drunkitTopLogo-new.png" width=192 height=65 id="top_nav_logo" /><img src="https://drunkit.co.uk/etc/themes/default/html/images/topMarker.gif" id="topmarker" width=200 height=65><img src="https://drunkit.co.uk/etc/themes/default/html/images/drunkitSecondTransition.jpg" width=200 height=65 id="toptransition">
+    </a>
+    <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+  <ul class="navbar-nav">
+    <li class="nav-item active" id="nav_home">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item" id="nav_about">
+      <a class="nav-link" href="about">About Me</a>
+    </li>
+	<li class="nav-item" id="nav_systems">
+	  <a class="nav-link" href="systems">Systems</a>
+	</li>
+	<li class="nav-item" id="nav_code">
+	  <a class="nav-link" href="code">Code</a>
+	</li>
+	<li class="nav-item" id="nav_about_site">
+	  <a class="nav-link" href="about_site">Site</a>
+  </ul>
+</div>
+</nav>
+<div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Bootstrap Sidebar</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <p>Dummy Heading</p>
+            <li class="active">
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">Home 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Home 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Home 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Page Content -->
+    <div class="container-fluid pt-3" id="content">
+        <h1>Classic Drunkit</h1>
+<p style="margin: 0px">Posted by <a href="/bin/profile.cgi?user=matt">Matt</a> on Tuesday 4th November 2008. 1 <a href="#comments">comments</a>.</p>
+
+<p>
+<img src="https://drunkit.co.uk/var/StaticPages/drunkiteers/drunkit4.jpg" style="float:right; width: 35%; border: 2px solid black; margin-right: 10px; margin-left: 10px;">Recently drunkit came up for renewal and I was tempted to let it disappear from the internet forever. However, I thought I'd visit it a few last times for nostalgic pleasure.<p>The site started back in 1999 as a fairly irresponsible way to promote hardcore drinking and club-going. At first we wrote a Mission review and encouraged others to submit their content. It started off slow, but we got some absolutely cracking stories.<p>The server died twice and the current iteration of Drunkit was written in late 2002 - six years ago.<p>As time progressed we opened up drunkit to be an entire community - in many ways an early Facebook. Drunkit became as much a part of a Thursday night in Mission as getting retardedly drunk.<p>I invite you to browse through all the <a href="https://drunkit.co.uk/bin/articles">old articles</a> or have a look at some of these ones which are my favourites:<br /><ul><li><a href="https://drunkit.co.uk/bin/article/id,5/">Sam's introduction to Vodbull</a> - <em>"Next thing I can remember having a pint of blue drink in my hand (no idea what it was) and I was escorting my rather worse-for-wear new girlfriend Claire to the medical room"</em></li><li><a href="https://drunkit.co.uk/bin/article/id,10/">Bhavin's insane rants on Alternative Music</a> - <em>"no I'm not gay, just a pancy boy when it comes to drinking"</em></li><li><a href="https://drunkit.co.uk/bin/article/id,12/">Matt G's unnerving drunken antics</a> - <em>"with no recollection of the night but waking up at 6 the next morning in the toilet covered in red wine and spaghetti bolognese bunder"</em></li><li><a href="https://drunkit.co.uk/bin/article/id,16/">Alex B's reasons not to sit exams</a> - <em>"phobophobia-fear of fearing"</em></li><li><a href="https://drunkit.co.uk/bin/article/id,19/">Matt D's Adventures home with MissionMan</a> - <em>"Still being drunk first thing, I decided I could probably have a shot of whisky to 'tackle the hang over'."</em></li><li><a href="https://drunkit.co.uk/bin/article/id,26/">Sam's account of the Special Brew Helpline</a> - <em>"Matt Day swiftly answered the phone, put on his incredibly camp voice and claimed to be my Gay Lover. &nbsp;“Sam can’t come to the phone right now, he’s just about to get dressed”."</em></li><li><a href="https://drunkit.co.uk/bin/article/id,23/">James' adventure in Wonderland</a> - <em>"The rest of the night was filled with running around, talking to Mr. Pizza box and falling in a well."</em></li><li><a href="https://drunkit.co.uk/bin/article/id,39/">Bobby's Big Bournemouth House Series</a> - <em>"At one point, one of the girls who was stripping realised that she wasnt actually wearing a bra so we got to see some full frontal action!"</em></li></ul><p>There are probably more classic articles, so check them all out!<p>Finally, <a href="https://forums.drunkit.co.uk/">the forum</a> has been left a little bit damaged due to someone deleting a lot of messages and rampant spamming, butfeel free to take a look at some of its inane bollocks!<p>I know there's been talk of a reunion. I'm pretty sure this will happen at some point, but I don't think we can engineer that from Drunkit. So, treat this article as a last look at the site.<p>Drunkit's not going anywhere and will be online for some time to come, but after you read a few of the articles (or all of them) and browsed through the forum I'm sure the fond memories of this great age will make you smile.
+</p>
+
+<h2><a name="comments"></a>Comments</h2>
+<p style="margin: 0px">1 comments posted. <a href="/bin/articles?a=postComment&amp;id=66">Post a comment</a>.<p>
+<table width="400" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td width="400" valign="top" class="label">
+			<a href="/bin/profile.cgi?user=matt">Matt</a>
+		</td>
+	</tr>
+	<tr>
+		<td width="400" valign="top" class="label">
+			I just re-read some of the articles - even in 2016 they haven't stopped being funny!
+		</td>
+	</tr>
+</table>
+    </div>
+</div>
+</body>
+
+</html>

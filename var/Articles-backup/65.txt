@@ -1,0 +1,6 @@
+date=1185075245
+username=matt
+article=This is a concept that we've dabbled around with a lot in Drunkit... However, it's also one we've never executed upon either.%0A%0AHowever, now we're running with the idea of a <strike>2007</strike> <strike>2008</strike> <strike>2009</strike> <strike>2010</strike> <strike>2011</strike> 2012 Drunkit Reunion. The plan is sketchy and one that's up for debate, but a number of things are near-certain contenders%3A%0A<ul><li>Drunkit t-shirts</li><li>Drinking</li></ul>%0A%0AHaving been informed by others that <a href%3D"https%3A//www.facebook.com/">Facebook</a> is the place to be, I have created a group called <strong>Drunken Drunkiteers</strong>. If you're not invited to this group, then you won't know what the plans are! So get a Facebook account and ping me to be invited.%0A%0AStay tuned for more news...%0A%0A<strong>Update%3A</strong> The reunion is obviously not going to happen. However, do read our <a href%3D"/bin/article/id,66/">best bits</a> - they're really quite good.
+numberofcomments=0
+title=Reunion
+description=Time for a Drunkit Reunion?

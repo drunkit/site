@@ -1,0 +1,9 @@
+answer1=3
+answer2=1
+1=This Thursday - its tradition
+answer3=3
+2=Sunday- cheaper than chips
+answer4=2
+3=Both - call me mad
+4=Neither - call me sad
+question=I will be venturing out to Mission

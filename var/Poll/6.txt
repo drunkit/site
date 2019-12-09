@@ -1,0 +1,15 @@
+answer1=1
+answer2=0
+1=Crushing beer cans on my head
+answer3=1
+2=Eating ice cream
+answer4=6
+3=Travelling
+answer5=0
+4=Working
+answer6=1
+5=Getting up really late
+answer7=2
+6=Out
+7=Drunk
+question=This summer I will be mostly...

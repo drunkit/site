@@ -1,0 +1,39 @@
+							<div class="loggedOutStatus">
+								<form action="[DocumentRootBin]/doLogin.cgi" method="post" class="first" style="text-align: right;">
+									<table cellspacing="0" cellpadding="0" border="0" class="tableTop">
+										<col width="*">
+										<col width="80">
+										<col width="25">
+										<tr>
+											<td class="topText">
+												<label for="id_login">Login:</label>
+											</td>
+											<td>
+												<input id="id_login" type="text" name="user" size="10" class="topEdit" />
+											</td>
+											<td>
+											</td>
+										</tr>
+										<tr>
+											<td class="topText">
+												<label for="id_password">Password:</label>
+											</td>
+											<td>
+												<input id="id_password" type="password" name="pass" size="10" class="topEdit" />
+											</td>
+											<td>
+												&nbsp;<input type="submit" value="Go" style="border: 1pt solid #000080; font-family: tahoma, serif; font-size: 8pt; background-color: #FFFFFF; color: #000080; width: 20px" />
+											</td>
+										</tr>
+									</table>
+									<p class="first" style="text-align: right;">
+										<input type="hidden" name="redirect" value="[var info=ReDirectInfo]" />
+									</p>
+								</form>
+								<form action="[DocumentRootBin]/messages" method="get" class="first">
+									<p class="first">
+										<input type="hidden" name="a" value="signup" />
+										<input type="submit" value="Sign Up" style="border: 1pt solid #000080; font-family: tahoma, serif; font-size: 8pt; background-color: #FFFFFF; color: #000080; width: 50px;" />
+									</p>
+								</form>
+							</div>

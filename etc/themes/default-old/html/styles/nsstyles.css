@@ -1,0 +1,123 @@
+H1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16pt;
+    COLOR: #5883a5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,times
+}
+H2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #5883a5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,times
+}
+P, BODY
+{
+	font-family: tahoma, arial, sans-serif;
+	font-size: 11pt;
+	color: #000000;
+}
+.label {
+	font-family: tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: transparent;
+}
+
+.smaller {
+	font-family: tahoma, arial, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	background-color: transparent;
+}
+
+.cooledit
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #f2ffb4
+}
+.coolbutton
+{
+    BORDER-RIGHT: #000000 2px solid;
+    BORDER-TOP: #000000 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #000000 2px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #000000 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc;
+    asd: 6191FF
+}
+.smallmain
+{
+    FONT-SIZE: 7pt;
+    COLOR: white;
+    FONT-FAMILY: comic sans ms,charcol,arial,Tahoma ,helvetica,helvetic
+}
+.buttonDown
+{
+    BORDER-RIGHT: #a4c6e2 2px solid;
+    BORDER-TOP: #000080 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #000080 2px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #a4c6e2 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc
+}
+.buttonOver
+{
+    BORDER-RIGHT: #000080 2px solid;
+    BORDER-TOP: #a4c6e2 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #a4c6e2 2px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #000080 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc
+}
+
+A:link
+{
+    COLOR: blue;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    COLOR: blue;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: underline
+}
+
+.click
+{
+    CURSOR: default;
+    Color: Black;
+    TEXT-DECORATION: none
+}
+A.click:link
+{
+    CURSOR: default;
+    Color: Black;
+    TEXT-DECORATION: none
+}
+.click:visited
+{
+    Color: Black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.whitelink:link,A.whitelink:visited {
+	color: white;
+	text-decoration: none;
+}

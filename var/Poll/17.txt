@@ -1,0 +1,9 @@
+answer1=2
+answer2=4
+1=Alchohol
+answer3=1
+2=Friends
+answer4=0
+3=Mike
+4=Women (men for alex)
+question=What I would miss most from a night out

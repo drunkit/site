@@ -1,0 +1,13 @@
+<h1>Themes</h1>
+
+<p style="margin: 0px">Drunkit comes in many flavours, select yours by choosing a different theme!</p>
+
+<form action="controlPanel.cgi" method="get">
+	<input type="hidden" name="area" value="changeTheme">
+	<select name="theme" class="cooldrop">
+		[controlPanel addOption=themes]
+	</select>
+	[var htmlButton=submit?Change theme] 
+</form>
+
+<p>Go back to the <a href="controlPanel.cgi">control panel</a>.

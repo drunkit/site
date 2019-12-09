@@ -1,0 +1,9 @@
+answer1=5
+answer2=1
+1=Already have
+answer3=1
+2=Yes
+answer4=3
+3=No
+4=Celeb-what?
+question=Would I join a Drunkit Celebdaq league?

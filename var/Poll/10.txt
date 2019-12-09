@@ -1,0 +1,17 @@
+question=Where have you been on your best drunken night?
+answer1=7
+answer2=0
+1=Mission
+answer3=0
+2=Brunel
+answer4=0
+3=Simple English pub
+answer5=1
+4=Chaos/Eros
+answer6=0
+5=House party
+answer7=0
+6=America
+answer8=0
+7=Vodbull
+8=At home

@@ -1,0 +1,52 @@
+<h1>Add a new message</h1><p style="margin: 0px">Ready to add a new message? This'll show us if you're man/woman enough!<p>
+
+<form method="post" action="[var info=thisFileName]" name="messageboard" style="margin: 0px">
+<input type="hidden" value="createNewMessage" name="a">
+
+<table border="0" cellpadding="0" border="0">
+	<tr>
+		<td width="100">
+			<span class="label">Alias:
+		</td>
+		<td width=200>
+			<input type=text name="FriendlyName" size="35" class="cooledit" value="[var profile=FriendlyName]">
+		</td>
+	</tr>
+	<tr>
+		<td width=100>
+			<span class="label">Subject:
+		</td>
+		<td width=250>
+			<input type="text" name="Topic" size="35" class=cooledit>
+		</td>
+	</tr>
+	<tr>
+		<td width="100" valign="top">
+			<span class="label">Message:
+		</td>
+		<td width="250">
+			<textarea name="message" COLS="55" ROWS=7 class=cooledit></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td witdh=100 valign=top>
+			&nbsp;
+		</td>
+		<td width=250>
+			<table cellspacing=0 cellpadding=0 border=0 width=220>
+				<tr>
+					<td>
+						[var htmlButton=submit?Add Message!]
+						</form>
+					</td>
+					<td>
+						<form action="[var info=thisFileName]" method="get" style="margin: 0px">
+							<input type=hidden value="viewall" name="a">
+							[var htmlButton=submit?Cancel]
+						</form>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

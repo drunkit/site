@@ -1,0 +1,305 @@
+H1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16pt;
+    COLOR: #5883a5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+
+input,textarea, select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #FFFFFF;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background-color : #EFEFEF;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+H2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #5883a5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+H3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #5883a5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+P
+{
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0px;
+}
+
+.tableHeight {
+	position: absolute;
+	background-color: #3975A6;
+	color: #FFFFFF;
+	background-image: none;
+	width: 125px;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+BODY {
+	margin: 0px;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0px;
+	background-image: none;
+}
+
+.topheader {
+	position: absolute;
+	width: 100%;
+	height: 65px;
+	background-color: #3975A6;
+}
+
+.sidePanel {
+	position: absolute;
+	width: 125px;
+	background-color: #3975A6;
+	left: 0px;
+	top: 87px;
+	text-align: center;	
+	height: 100%;
+}
+
+.middlebar {
+	position: absolute;
+	width: 100%;
+	height: 22px;
+	background-color: #3975A6;
+	top: 65px;
+	left: 0px;
+	font-size: 8pt;
+	font-family: arial, sans-serif;
+	color: #FFFFFF;
+}
+
+.linkContainer {
+	position: absolute;
+	width: 115px;
+	height: 101px;
+	left: 5px;
+	top: 50px;
+}
+
+.sideStrip {
+	position: absolute;
+	width: 5px;
+	background-color: #FFFFFF;
+	left: 125px;
+	top: 87px;
+	height: 100%;
+}
+
+.articlesContainer
+{
+	right: 0px;
+	border: 0px;
+	position: absolute;
+	top: 2px;
+}
+
+.mainbody {
+	position: absolute;
+	left: 130px;
+	background-color: #FFFFFF;
+	top: 87px
+}
+
+.label {
+	font-family: tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: transparent;
+}
+
+
+
+A.head3Link:link a.head3Link:visited {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #5883a5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+
+A.head3Link:hover {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #5883F5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+
+
+.smaller {
+	font-family: tahoma, arial, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	background-color: transparent;
+}
+
+.cooledit
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #f2ffb4
+}
+.coolbutton
+{
+    BORDER-RIGHT: #000000 2px solid;
+    BORDER-TOP: #000000 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #000000 2px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #000000 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc;
+}
+.smallmain
+{
+    FONT-SIZE: 7pt;
+    COLOR: white;
+    FONT-FAMILY: comic sans ms,charcol,arial,Tahoma ,helvetica,helvetic
+}
+.buttonDown
+{
+    BORDER-RIGHT: #a4c6e2 2px solid;
+    BORDER-TOP: #000080 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #000080 2px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #a4c6e2 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc
+}
+.buttonOver
+{
+    BORDER-RIGHT: #000080 2px solid;
+    BORDER-TOP: #a4c6e2 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #a4c6e2 2px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #000080 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc
+}
+
+A:link
+{
+    COLOR: blue;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    COLOR: blue;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: underline
+}
+
+.click
+{
+    CURSOR: default;
+    Color: Black;
+    TEXT-DECORATION: none
+}
+
+A.panelLink:link,A.panelLink:visited {
+	font-weight: bold;
+	height: 18px;
+	border: 2px solid #3975A6;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: transparent;
+}
+
+A.panelLink:hover {
+	border-color: #000080;
+	color: #FFFFFF;
+	background-color: #5F9BCE;
+}
+
+A.mb:link
+{
+    Color: blue;
+}
+A.mb:visited
+{
+    Color: purple;
+}
+A.mb:hover
+{
+    Color: red;
+}
+A.click:visited A.click:link
+{
+	color: black;
+	text-decoration: none;
+}
+.whiteLink {
+	color: white;
+}
+A.whiteLink:link, a.whiteLink:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.ddoption {
+	color: #000080;
+}
+
+A.ddoption:link {
+	color: #000080;
+	font-family: comic sans ms;
+	font-size: 9pt;
+	text-decoration: underline;
+}
+
+a.ddoption:visited {
+	color: #000080;
+	font-size: 9pt;
+	font-family: tahoma;
+	text-decoration: underline;
+}
+
+a.ddoption:hover {
+	color: #FF0000;
+}

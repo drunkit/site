@@ -1,0 +1,13 @@
+answer1=1
+answer2=0
+1=Its not, your wrong
+answer3=3
+2=12(a) is a high rating....
+answer4=0
+3=Its a kids film with bunny rabbits
+answer5=2
+4=I dont care, arnie is past it
+answer6=2
+5=I dont care (its still too scary)
+6=Other
+question=How the HELL can Terminator 3 be a 12(a) rating?!?

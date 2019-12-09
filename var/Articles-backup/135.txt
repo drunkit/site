@@ -1,0 +1,6 @@
+numberofcomments=0
+article=Hi, %0A %0AI've been visiting your website a few times and decided to give you some positive feedback because I find it very useful. Well done. %0A %0AI was wondering if you as someone with experience of creating a useful website could help me out with my new site by giving some feedback about what I could improve? %0A %0AYou can find my site by searching for "casino gorilla" in Google (it's the gorilla themed online casino comparison). %0A %0AI would appreciate if you could check it out quickly and tell me what you think. %0A %0Acasinogorilla.com %0A %0AThank you for help and I wish you a great week!
+description=
+title=Can I ask you a favor?
+date=1555679638
+username=terrelldat

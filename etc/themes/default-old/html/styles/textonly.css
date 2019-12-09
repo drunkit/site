@@ -1,0 +1,236 @@
+H1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16pt;
+    COLOR: #650B86;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+
+H2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #650B86;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+H3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #650B86;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+P
+{
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0px;
+}
+
+.tableHeight {
+	position: absolute;
+	background-color: #812AA1;
+	color: #FFFFFF;
+	background-image: none;
+	width: 125px;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+BODY {
+	margin: 0px;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0px;
+	background-image: none;
+}
+
+.topheader {
+	display: none;
+}
+
+.sidePanel {
+	display: none;
+}
+
+.middlebar {
+	display: none;
+}
+
+.linkContainer {
+	display: none;
+}
+
+.sideStrip {
+	display: none;
+}
+
+.articlesContainer {
+	display: none;
+}
+
+.mainbody {
+	position: absolute;
+	left: 130px;
+	background-color: #FFFFFF;
+	top: 87px
+}
+
+.label {
+	font-family: tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: transparent;
+}
+
+
+
+A.head3Link:link a.head3Link:visited {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #5883a5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+
+A.head3Link:hover {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #5883F5;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 5px;
+    FONT-FAMILY: tahoma,verdana,arial,helvetica,times new roman,sans-serif;
+}
+
+
+.smaller {
+	font-family: tahoma, arial, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	background-color: transparent;
+}
+
+.cooledit
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #f2ffb4
+}
+.coolbutton
+{
+    BORDER-RIGHT: #000000 2px solid;
+    BORDER-TOP: #000000 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #000000 2px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #000000 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc;
+    asd: 6191FF
+}
+.smallmain
+{
+    FONT-SIZE: 7pt;
+    COLOR: white;
+    FONT-FAMILY: comic sans ms,charcol,arial,Tahoma ,helvetica,helvetic
+}
+.buttonDown
+{
+    BORDER-RIGHT: #a4c6e2 2px solid;
+    BORDER-TOP: #000080 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #000080 2px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #a4c6e2 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc
+}
+.buttonOver
+{
+    BORDER-RIGHT: #000080 2px solid;
+    BORDER-TOP: #a4c6e2 2px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #a4c6e2 2px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #000080 2px solid;
+    FONT-FAMILY: verdana, arial, helvetica;
+    BACKGROUND-COLOR: #3187cc
+}
+
+A:link
+{
+    COLOR: blue;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    COLOR: blue;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: underline
+}
+
+.click
+{
+    CURSOR: default;
+    Color: Black;
+    TEXT-DECORATION: none
+}
+
+A.panelLink:link,A.panelLink:visited {
+	font-weight: bold;
+	height: 18px;
+	border: 2px solid #812AA1;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: transparent;
+}
+
+A.panelLink:hover {
+	border-color: #3D0D4F;
+	color: #FFFFFF;
+	background-color: #9D7BA9;
+}
+
+A.mb:link
+{
+    Color: blue;
+}
+A.mb:visited
+{
+    Color: purple;
+}
+A.mb:hover
+{
+    Color: red;
+}
+A.click:visited A.click:link {
+{
+    Color: Black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+.whiteLink {
+	color: white;
+}
+a.whiteLink:link, a.whiteLink:visited {
+	color: white;
+	text-decoration: none;
+}

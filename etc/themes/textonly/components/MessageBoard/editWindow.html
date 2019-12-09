@@ -1,0 +1,60 @@
+<h1>Edit Message</h1>
+<p style="margin: 0px">Correct your terrible spelling, grammar and subject matter here!<p>
+
+<form method="post" action="[var info=thisFileName]" style="margin: 0px">
+<input type="hidden" name="a" value="editmessage">
+<input type=hidden value="[var info=threadNumber]" name="msg">
+
+<table border="0" cellpadding="0" border="0">
+	[advedit]
+	<tr>
+		<td width="100">
+			<span class="label">Alias:
+		</td>
+		<td width=200>
+			<input type=text name="FriendlyName" size="35" class="cooledit" value="[var name=FriendlyName]">
+		</td>
+	</tr>
+	<tr>
+		<td width=100>
+			<span class="label">Subject:
+		</td>
+		<td width=250>
+			<input type="text" name="Topic" size="35" value="[var name=Topic]" class=cooledit>
+		</td>
+	</tr>
+	<tr>
+		<td width="100" valign="top" class="label">
+			Message:
+		</td>
+		<td width="250">
+			<textarea name="message" COLS="55" ROWS=7 class=cooledit>[var parseHex=Message]</textarea>
+		</td>
+	</tr>
+	<tr>
+		<td witdh=100 valign=top>
+			&nbsp;
+		</td>
+		<td width=250>
+			<table cellspacing=0 cellpadding=0 border=0 width=220>
+				<tr>
+					<td>
+						[var htmlButton=submit?Update Message]
+						</form>
+					</td>
+					<td>
+						<form action="[var info=thisFileName]" method="get" style="margin: 0px">
+							<input type=hidden value="view" name="a">
+							<input type=hidden value="[var info=threadNumber]" name="msg">
+							[var htmlButton=submit?Cancel]
+						</form>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+
+
+<script>document.messageboard.art.focus();</script>

@@ -1,0 +1,13 @@
+<h1>Select an article to edit</h1>
+<p style="margin: 0px">Please select an article from the list below to edit.</p>
+
+<h2 style="margin-top: 10px; margin-bottom: 5px">Your articles</h2>
+<form action="[var info=ThisFileName]" method="get" style="margin: 0px">
+<input type="hidden" name="a" value="edit">
+<select name="id">
+[editarticlelist]
+</select>
+[var htmlButton=submit?Edit Article]
+</form>
+
+[otherPeoplesArticles]

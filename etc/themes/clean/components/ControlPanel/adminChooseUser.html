@@ -1,0 +1,11 @@
+<h1>Select user to edit</h1>
+<p style="margin: 0px">Before we begin, please select a user to edit:</p>
+<form action="[var info=thisFileName]" method="get">
+	<input type="hidden" name="area" value="admin">
+	<select name="usr">
+		[controlPanel addOption=users]
+	</select>
+
+	[var htmlButton=submit?Edit this user]
+
+<p>Go back to the <a href="[var info=thisFileName]">control panel</a>.

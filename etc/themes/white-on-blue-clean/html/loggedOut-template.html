@@ -1,0 +1,23 @@
+			<div class="statusBarLoggedOut">
+				<h2 class="navigationBarTitle">
+					Log in
+				</h2>
+				<div class="navigationLinks">
+					<form action="/bin/doLogin" method="post">
+						<p class="first">
+							<input type="hidden" name="redirect" value="[var info=ReDirectInfo]" />
+							<label for="id_username" class="loginLabel">User: </label><input type="text" name="user" id="id_username" class="loginBox" /><br />
+							<label for="id_password" class="loginLabel">Pass: </label><input type="password" name="pass" id="id_password" class="loginBox" /> <input type="submit" value="&gt;&gt;" class="loginButton" />
+						</p>
+					</form>
+					<dl>
+						<dd>
+							<a href="https://drunkit.co.uk/bin/controlPanel" class="navigationLink">&#187; Forgotten password?</a>
+							<a href="https://drunkit.co.uk/bin/messages?a=signup" class="navigationLink">&#187; Sign up!</a>
+						</dd>
+							<dt style="display: none" id="toggleDisplay">
+								<a href="#" onclick="javascript:toggleDisplay(); return false;" class="navigationHideLink" title="Hide the side menu">&lt; Hide</a>
+	</dt>
+					</dl>
+				</div>
+			</div>

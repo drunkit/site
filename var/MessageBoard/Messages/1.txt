@@ -1,0 +1,9 @@
+topic=Welcome!
+ip=62.254.128.6
+time=1040452230
+useragent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)
+username=matt
+message=After many months of waiting, many weeks of promise and many days of work, Drunkit is finally back!%0A%0AThe goal is to make it even larger, better and more interesting than Drunkit ever has been!%0A%0AYou will find that most features are missing for the time being, but much work is going in to ensuring that core features of Drunkit, such as the message board, article submission and polls are ready in time for the new year. Additional features, such as themes will arrive later (you are welcome to write your own theme, <a href%3Dmailto:m.s.day@cs.cf.ac.uk>email me</a> if you plan on doing this so I can supply you with the theme spec).%0A%0ASorry that we've been offline and welcome back! Don't forget to sign up for a new account, your old accounts could not be imported into the new system.%0A%0A--Matt :-o%0A(smileys will also be coming soon!)
+friendlyname=Matt
+linksto=1268,2,
+linksfrom=-1

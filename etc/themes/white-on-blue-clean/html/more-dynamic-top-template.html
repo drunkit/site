@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-gb">
+	<head>
+		<title>
+			Welcome to Drunkit - The scurge of the .com empire.
+		</title>
+		<meta http-equiv="pics-label" content='(pics-1.1 "https://www.icra.org/ratingsv02.html" comment "ICRAonline v2.0" l gen true for "https://drunkit.co.uk/"  r (nz 1 vz 1 lb 1 ob 1 og 1 ca 1) "https://www.rsac.org/ratingsv01.html" l gen true for "https://drunkit.co.uk/"  r (n 0 s 0 v 0 l 2))" />
+		<script src="themeOut.cgi?file=javascript/java.js" type="text/javascript"></script>
+		<link href="themeOut.cgi?file=styles/styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="topPanel" style="background-image: url('themeOut.cgi?file=images/topbgImage.gif');">
+			<img src="themeOut.cgi?file=images/drunkitTopLogo.jpg" alt="Welcome to drunkit.co.uk" style="width: 192px; height: 65px; position: absolute; left: 0px; top: 0px;" /><img src="themeOut.cgi?file=images/topMarker.gif" alt="" style="width: 200px; height: 65px; position: absolute; left: 192px; top: 0px;" /><img src="themeOut.cgi?file=images/drunkitSecondTransition.jpg" style=" position: absolute; width: 200px; height: 65px; left: 392px; top: 0px;" alt="" />
+			[include condition=userName parse=loggedIn-template.html elseParse=loggedOut-template.html]
+		</div>
+		
+		<div class="infoStrip" style="background-image: url('themeOut.cgi?file=images/heightMarker.gif');"><img src="themeOut.cgi?file=images/heightMarker.gif" style="vertical-align: middle" alt="" />
+			[var info=timeAndDate]
+			<div style="position: absolute; right: 0px; top: 2px; margin: 0px; border: 0px;">
+				<a href="articles.cgi?a=new" class="panelLink">&nbsp;New Article&nbsp;</a>
+				<a href="articles.cgi?a=edit" class="panelLink">&nbsp;Edit Article&nbsp;</a>
+				<a href="messages.cgi?a=recent&amp;show=20" class="panelLink">&nbsp;Recent Messages&nbsp;</a>
+			</div>
+		</div>
+
+		<div id="sideBar" class="sidePanel">
+			<div style="position: absolute; width: 115px; height: 101px; left: 5px; top: 50px;">
+				<a href="pageOut.cgi?page=main" class=plink onMouseOver="moveOver(home); return true;" onFocus="return true;" onMouseOut="moveOut(home); return true;" onBlur="return true;"><img name="home" src="themeOut.cgi?file=images/home.gif" style="border: 0px; width: 115px; height: 25px" alt="A link to go Home" /></" /><br />
+				<a href="articles.cgi?a=viewall" class=plink onMouseOver="moveOver(features); return true;" onMouseOut="moveOut(features); return true;" onFocus="return true;" onBlur="return true;"><img name="features" src="themeOut.cgi?file=images/features.gif" style="border: 0px; width: 115px; height: 25px" alt="A link to see all drunkit articles" /></" /><br />
+				<a href="messages.cgi" class=plink onMouseOver="moveOver(messages); return true;" onMouseOut="moveOut(messages); return true;" onFocus="return true;" onBlur="return true;"><img name="messages" src="themeOut.cgi?file=images/messages.gif" style="border: 0px; width: 115px; height: 25px" alt="A link to the Drunkit message board" /></" /><br />
+				<a href="pageOut.cgi?page=pictures" class=plink onMouseOver="moveOver(pictures); return true;" onMouseOut="moveOut(pictures); return true;" onFocus="return true;" onBlur="return true;"><img name="pictures" src="themeOut.cgi?file=images/pictures.gif" style="border: 0px; width: 115px; height: 25px" alt="Frightening pictures of terrifying members!" /></" /><br />
+				<img src="themeOut.cgi?file=images/line.gif" alt="" /><br /><br />
+
+			[include poll]
+			</div>
+		</div>
+
+		<div style="position: absolute; width: 5px; background-color: #3975A6; left: 125px; top: 87px; background-image: url('themeOut.cgi?file=images/sideMarker.gif')"><img src="themeOut.cgi?file=images/sideMarker.gif" alt="" /></di" />
+
+	
+
+		<div style="position: absolute; left: 130px; background-color: #FFFFFF; top: 87px">

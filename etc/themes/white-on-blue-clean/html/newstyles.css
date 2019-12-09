@@ -1,0 +1,356 @@
+/* Main HTML Elements */
+
+html {
+	/*height: 100%;
+	width: 100%;*/
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0em;
+	height: 90%;
+	background-color: #000080;
+	font-family: tahoma, sans-serif;
+	font-size: 1.0em;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.5em;
+	margin-bottom: 0.1em;
+	margin-top: 0em;
+	background-color: #000080;
+	/*background-image: url("/images/transition.gif");
+	height: 1.2em;*/
+	color: #FFFFFF;
+	padding: 0.2em;
+	letter-spacing: 0.2em;
+	border-bottom: 1px solid #FFFFFF;
+	font-family: sans-serif;
+
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.3em;
+	margin-bottom: 0.1em;
+	margin-top: 0em;
+	color: #FFFFFF;
+	padding: 0.2em;
+	letter-spacing: 0.1em;
+	font-family: sans-serif;
+}
+h3 {
+	font-weight: normal;
+	margin-left: 0.1em;
+	font-size: 1.15em;
+	margin-bottom: 0.01em;
+	margin-top: 0em;
+	color: #FFFFFF;
+	padding: 0.01em;
+	letter-spacing: 0.01em;
+	font-family: sans-serif;
+}
+
+p, td {
+	font-family: tahoma, sans-serif;
+	font-size: 1em;
+}
+
+img {
+	border: 0em;
+	vertical-align: middle;
+}
+
+dt {
+	font-weight: bold;
+	margin: 0em;
+	padding: 0em;
+}
+dd {
+	margin-left: 0em;
+	padding-left: 0em;
+}
+dl {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+
+
+
+/* Generic presentational items */
+p.first {
+	margin: 0em;
+}
+div#mainBody p {
+	padding: 0.2em;
+}
+dt.next {
+	margin-top: 0.3em;
+}
+
+
+/* Top level items */
+
+div#mainBody {
+	/* colours and styles */
+	position: relative;
+	background-color: #000080;
+	border: 1px solid #FFFFFF;
+	margin-left: 11.4em;
+	margin-top: 1em;
+	color: #FFFFFF;
+	/*height: 100%;*/
+	width: 75%;
+	min-height: 100%;
+	margin-bottom: 2em;
+}
+div#sideBar {
+	/* 
+	   Would like to use float:left, but IE has some strange
+	   problems when I do this, so an absolute position is used
+	   instead...
+	   
+	float: left;
+	*/
+	position: absolute;
+	/*min-height: 110px;*/
+	margin-left: 0.2em;
+	top: 0em;
+	left: 0em;
+	margin-top: 4em;
+	width: 10em;
+}
+
+
+
+
+
+/* Second level elements */
+
+div#navigationBar {
+	width: 100%;
+
+	/* Presentation */
+	background-color: #000080;
+	background-repeat: no-repeat;
+	background-position: 5.9em 1.3em;
+	color: #FFFFFF;
+	border: 0.05em solid #FFFFFF;
+	font-family: tahoma, sans-serif;
+	font-size: 1.1em;
+}
+
+div#pollBar {
+	/* positioning */
+	position: relative;
+	width: 100%;
+	margin-top: 1.3em;
+	
+	/* Presentation */
+	background-color: #000080;
+	color: #FFFFFF;
+	border: 0.05em solid #FFFFFF;
+	font-family: tahoma, sans-serif;
+	font-size: 1.1em;
+	
+	background-repeat: no-repeat;
+	background-position: 5.9em 1.3em;
+}
+
+div#statusBar {
+	/* positioning */
+	position: relative;
+	width: 100%;
+	margin-top: 1.3em;
+	
+	/* Presentation */
+	background-color: #000080;
+	color: #FFFFFF;
+	border: 0.05em solid #FFFFFF;
+	font-family: tahoma, sans-serif;
+	font-size: 1.1em;
+	
+	background-repeat: no-repeat;
+	background-position: 5.9em 1.3em;
+}
+
+.statusBarLoggedOut {
+	/* positioning */
+	position: relative;
+	width: 100%;
+	margin-top: 1.3em;
+	
+	/* Presentation */
+	background-color: #000080;
+	color: #FFFFFF;
+	border: 0.05em solid #FFFFFF;
+	font-family: tahoma, sans-serif;
+	font-size: 1.1em;
+}
+
+div#showMenuOption {
+	position: absolute;
+	background-image: url("/images/sideopenbg.gif");
+	background-color: #E8E8E8;
+	background-repeat: repeat-x;
+	top: 10em;
+	left: 0em;
+	width: 1.35em;
+	vertical-align: middle;
+	height: 6.9em;
+}
+
+/* Generic second-level elements */
+
+div#sideBar div.navigationLinks {
+	padding: 0em;
+	margin: 0em;
+	display: block;
+
+}
+div#sideBar a.navigationLink {
+	position: relative;
+	text-decoration: none;
+	display: block;
+	font-size: 0.8em;
+	padding: 0.1em;
+	color: #FFFFFF;
+}
+
+div#sideBar a.navigationLink:hover {
+	color: #FFFFFF;
+	background-color: #0000FF
+}
+
+div#sideBar a.navigationHideLink {
+	position: relative;
+	text-decoration: none;
+	display: block;
+	font-size: 0.8em;
+	padding: 0.1em;
+	color: #FFFFFF;
+	text-align: center;
+	border-top: 0.01em solid #FFFFFF;
+}
+
+div#sideBar a.navigationHideLink:hover {
+	color: #FFFFFF;
+	background-color: #0000FF
+}
+
+div#sideBar h2 {
+	/* Presentation */
+	font-family: tahoma, sans-serif;
+	font-size: 1em;
+	padding: 0.08em;
+	
+	font-weight: normal;
+	margin-bottom: 0em;
+	margin-top: 0em;
+	color: #FFFFFF;
+	letter-spacing: 0.1em;
+	border-bottom: 0.05em solid #FFFFFF;
+	font-family: sans-serif;
+}
+
+input.loginBox {
+	margin-top: 0.3em;
+	width: 5em;
+	border: 1px solid #000000;
+}
+
+label.loginLabel {
+	margin-left: 0.2em;
+	font-size: 0.8em;
+}
+
+input.loginButton {
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	background-color: #EEEEEE;
+	width: 2em;
+	font-size: 0.8em;
+}
+
+table.sideopen {
+	height: 100%;
+	padding: 0em;
+	margin: 0em;
+	cursor: pointer;
+}
+
+td.sideopen {
+	cursor: pointer;
+	border: 0em solid #000080;
+	margin: 0em;
+	padding: 0em;
+	vertical-align: middle;
+}
+
+td.image {
+	text-align: center;
+	padding-top: 20px;
+}
+table {
+	margin-left: 0.2em;
+}
+table.welcomeTableNode .text {
+	text-align: left;
+}
+
+table.welcomeTableNode td {
+	vertical-align: top;
+	text-align: left;
+}
+
+table.interiorTableNode {
+	width: 100%;
+}
+
+.ddoption {
+	color: #FFFFFF;
+}
+
+A.ddoption:link {
+	color: #18FF00;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+a.ddoption:visited {
+	color: #18FF00;
+	font-size: 9pt;
+	font-family: tahoma;
+	text-decoration: underline;
+}
+
+a.ddoption:hover {
+	color: #7DFF6F;
+}
+
+a:link, a:visited {
+	color: #18FF00;
+	text-decoration: underline;
+}
+a:hover {
+	color: #7DFF6F;
+}
+
+/*
+This fixes the sidebar in place... however, it doesn't work
+in IE...
+[id="sideBar"]{
+	position: fixed !important;
+}
+*/
+
+.coolbutton, .buttonDown, .buttonOver, .buttonover {
+	border: 1px solid #FFFFFF;
+	font-size: 1em;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	background-color: #6D411D;
+}

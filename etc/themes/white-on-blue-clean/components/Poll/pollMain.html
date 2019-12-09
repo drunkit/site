@@ -1,0 +1,20 @@
+<h2 class="navigationBarTitle">
+	Poll
+</h2>
+<p class="first" style="text-align: center; font-size: 0.8em; font-weight: bold; margin-top: 0.1em; margin-bottom: 0.8em;">[poll var=Question]</p>
+
+<form style="font-size: 0.8em;" action="https://drunkit.co.uk/php/vote" method="get">
+
+<p class="first">
+	<input type="hidden" name="a" value="vote" />
+	[poll parse=Options]
+</p>
+<div style="text-align: center; margin-top: 0.8em;">
+	<input type="submit" value="Vote" style="border: 1px solid #000080; color: #000000; background-color: #FFFFFF; font-family: tahoma, arial, serif; font-size: 9pt;" />
+
+	<input type="submit" value="View" name="viewResults" style="border: 1px solid #000080; color: #000000; background-color: #FFFFFF; font-family: tahoma, arial, serif; font-size: 9pt" />
+</div>
+</form><!--
+<dt style="display: none" id="toggleDisplay">
+	<a href="#" onclick="javascript:toggleDisplay(); return false;" class="navigationHideLink" title="Hide the side menu">&lt; Hide</a>
+</dt>-->

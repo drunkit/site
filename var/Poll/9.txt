@@ -1,0 +1,13 @@
+question=What should Matt be wearing to Mission
+1=Construction Jacket
+answer1=2
+2=Biker gear
+answer2=0
+3=Drunkit shirt
+answer3=1
+4=Bunny costume
+answer4=2
+5=Formal suit
+answer5=3
+6=Birthday suit
+answer6=1

@@ -1,0 +1,45 @@
+<h1>Log in</h1><p style="margin: 0px">
+In order to use this section of Drunkit, you need to be logged in.<p>
+
+[var info=error]
+
+If you don't have a username or password, <a href="[var info=thisFileName]?a=signup">sign up for one</a> - it's free!
+
+<form method="get" action="doLogin.cgi">
+<span class=main>
+	<table width=400 height=100 cellpadding=0 cellspacing=0 border=0>
+		<tr>
+			<td width=100 valign=top>
+				<span class=main>
+					Username:   
+				</span>
+			</td>
+			<td valign=top>
+				<input type=text name=user class=cooledit value="">
+			</td>
+			<td valign=top>
+				&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td width=100 valign=top>
+				<span class=main>
+					Password: &nbsp;
+				</td>
+				<td valign=top>
+					<input type=password name=pass class=cooledit>
+				</td>
+				<td valign=top width=200>
+					&nbsp; &nbsp; [var htmlButton=submit?Login]
+					<input type=hidden name=signinmethod value=always>
+					<input type="button" ONMOUSEOVER="this.className='buttonOver'" ONMOUSEOUT="this.className='coolbutton'" class=coolbutton value="Cancel" ONMOUSEDOWN=this.className='buttonDown' ONMOUSEUP=this.className='buttonover' onclick="window.location='newmessageboard.cgi?a=view&id='">
+					<input type="hidden" name="redirect" value="[var info=ReDirectInfo]">
+		</form>
+			</td>
+			</tr>
+		</table>
+
+Note, you will need to have Cookies enabled in your web browser for this area of the site to work.
+<script>
+document.login.user.select();
+</script>

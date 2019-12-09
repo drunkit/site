@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Drunkit - having fun since '99">
+	<title>[var info=Title]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://drunkit.co.uk/etc/themes/default/html/styles/styles.css">
+    		<script src="/etc/themes/default/html/javascript/javascript.js"></script>
+	<style>
+
+	</style>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<body>
+<!-- Top -->
+<nav class="navbar navbar-dark navbar-expand-md sticky-top" id="top_nav">
+    <a href="https://drunkit.co.uk" id="top_nav_brand">
+        <img src="https://drunkit.co.uk/etc/themes/default/html/images/drunkitTopLogo-new.png" width=192 height=65 id="top_nav_logo" alt="Drunkit top logo" /></a>
+    <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target=".collapse-drunkit" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="menu_toggle">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end collapse-drunkit" id="navbarSupportedContent">
+[include condition=userName parse=loggedIn-template.html elseParse=loggedOut-template.html]
+</div>
+</nav>
+<div id="top_bar" class="navbar collapse-drunkit" style="font-size: 10px"><div id="timedate">[var info=timeAndDate]</div>
+<div class="justify-content-end" id="quickLinks">
+    <a href="https://drunkit.co.uk/bin/articles?a=new" class="panelLink">&nbsp;New Article&nbsp;</a>
+	<a href="https://forums.drunkit.co.uk/" class="panelLink">&nbsp;Forum Index&nbsp;</a>
+	<a href="https://forums.drunkit.co.uk/search.php?search_id=newposts" class="panelLink">&nbsp;Unread Posts&nbsp;</a>
+</div>
+
+</div>
+<div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar" class="collapse-drunkit">
+					<div class="sidelinkContainer">
+						<div class="imageLockerOne">
+							<a href="https://drunkit.co.uk/bin/home" class="plink" onmouseover="moveOver(home); return true;" onfocus="return true;" onmouseout="moveOut(home); return true;" onblur="return true;"><img id="home" src="https://drunkit.co.uk/etc/themes/default/html/images/home.gif" style="border: 0px; width: 115px; height: 25px" alt="Home" title="Go to the Drunkit home page" /></a>
+						</div>
+						<div class="imageLockerTwo">
+							<a href="https://drunkit.co.uk/bin/articles" class="plink" onmouseover="moveOver(features); return true;" onmouseout="moveOut(features); return true;" onfocus="return true;" onblur="return true;"><img id="features" src="https://drunkit.co.uk/etc/themes/default/html/images/features.gif" style="border: 0px; width: 115px; height: 25px" alt="Features" title="View the Drunkit articles" /></a>
+						</div>
+						<div class="imageLockerThree">
+							<a href="https://forums.drunkit.co.uk/" class="plink" onmouseover="moveOver(messages); return true;" onmouseout="moveOut(messages); return true;" onfocus="return true;" onblur="return true;"><img id="messages" src="https://drunkit.co.uk/etc/themes/default/html/images/messages.gif" style="border: 0px; width: 115px; height: 25px" alt="Messages" title="Go to the Drunkit Forums" /></a>
+						</div>
+						<div class="imageLockerFour">
+							<a href="https://drunkit.co.uk/bin/content/page,pictures/" class="plink" onmouseover="moveOver(pictures); return true;" onmouseout="moveOut(pictures); return true;" onfocus="return true;" onblur="return true;"><img id="pictures" src="https://drunkit.co.uk/etc/themes/default/html/images/pictures.gif" style="border: 0px; width: 115px; height: 25px;" alt="Pictures" title="Terrifying pictures of our members!" /></a>
+						</div>
+						<div class="imageLockerFive">
+							<img src="https://drunkit.co.uk/etc/themes/default/html/images/line.gif" alt="" />
+						</div>
+					</div>
+					<div class="searchFormContainer">
+						<h3 style="font-family: tahoma, sans-serif; margin: 0px; margin-bottom: 15px; font-size: 9pt; color: #FFFFFF">Search The Forums</h3>
+							<form id="sideSearchForm" action="https://forums.drunkit.co.uk/search.php?mode=results" method="post">
+								<p class="first">
+									<input type="text" name="search_keywords" size="30" style="width: 75px; border: 1px solid #000000; background-color: #FFFFFF; font-family: tahoma, sans-serif; font-size: 8pt;" placeholder="Query" aria-label="Forum search" />
+									<input type="submit" class="sideEdit" style="width: 30px; margin: 0px; color: black; background-color: white; border: 1px solid black; font-family: tahoma, sans-serif" value="Go" />
+								</p>
+							</form>
+					</div>
+					<div class="pollContainer">
+						[include poll]
+					</div>
+    </nav>
+    <script>
+    $("#menu_toggle").click(function(e) {
+      e.preventDefault();
+        console.log("Toggle");
+      $("#sidebar").toggleClass("toggled");
+      $("#top_bar").toggleClass("toggled");
+
+    });
+    </script>
+    <!-- Page Content -->
+    <div class="container-fluid pt-3" id="content">
+

@@ -1,0 +1,43 @@
+<h1>Log in</h1><p style="margin: 0px">
+In order to use this section of Drunkit, you need to be logged in.<p>
+
+[var info=error]
+
+If you don't have a username or password, <a href="messages.cgi?a=signup">sign up for one</a> - it's free!
+
+<form method="post" action="doLogin.cgi" name="login">
+	<input type="hidden" name="redirect" value="[var info=ReDirectInfo]">
+	<table width="400" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td width=100 valign=top>
+				<span class=main>
+					Username:   
+				</span>
+			</td>
+			<td valign=top>
+				<input type=text name=user class=cooledit value="">
+			</td>
+			<td valign=top>
+				&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td width=100 valign=top>
+				<span class=main>
+					Password: &nbsp;
+				</span>
+			</td>
+			<td valign=top>
+				<input type=password name=pass class=cooledit>
+			</td>
+			<td valign=top width=200>
+				&nbsp; &nbsp; [var htmlButton=submit?Login]
+				
+			</td>
+		</tr>
+	</table>
+</form>
+<p>Note, you will need to have Cookies enabled in your web browser for this area of the site to work.</p>
+<script type="text/javascript">
+document.login.user.select();
+</script>

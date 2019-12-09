@@ -1,0 +1,55 @@
+<!-- Bootstrap is needed for the new home page, load it twice in case the theme doesn't -->
+    <div class="container-flex">
+    <h1>Welcome to Drunkit!</h1>
+    <div class="container" style="padding-top: 20px">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top: 10px;">
+                <img src="../home/images/announcements.jpg" width="48" height="48" alt="" style="width: 48px; height: 48px; float:left;">
+                <div style="padding-left: 60px">
+                    <h2>Announcements</h2>
+    	    		<p style="margin: 0px;">{announcement}</p>
+    		    	<p style="margin-top: 5px;"><a href="controlPanel?area=editannouncements" class="">Edit</a> announcements</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <img src="../home/images/search.jpg" width="48" height="48" alt="" style="width: 48px; height: 48px; float:left;">
+                <div style="padding-left: 60px">
+                    <h2>Search</h2>
+							<form action="https://forums.drunkit.co.uk/search.php?mode=results" method="post">
+								<p style="margin: 0px;">
+									Search the forums:<br />
+									<input type="text" name="search_keywords" style="width: 9em; border: 2px solid #000000; background-color: #FFFFFF; font-family: tahoma, sans-serif; font-size: 1em; margin-top: 6px;" />
+									<input type="submit" class="sideEdit" style="font-size: 1em; margin: 0px; height: 1.65em; width: 2.6em; color: black; background-color: white; border: 2px solid black; font-family: tahoma, sans-serif" value="Go" />
+								</p>
+								<p><a href="https://forums.drunkit.co.uk/search">Advanced</a> search.</p>
+							</form>
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="margin-top: 15px;">
+                <img src="../home/images/quote.jpg" width="48" height="48" alt="" style="width: 48px; height: 48px; float:left;">
+                <div style="padding-left: 60px">
+                    <h2>Drunkit Quote</h2>
+                    {quote}
+                </div>
+        </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="margin-top: 15px;">
+                <img src="../home/images/news.jpg" width="48" height="48" alt="" style="width: 48px; height: 48px; float:left;">
+                <div style="padding-left: 60px">
+                    <h2>Drunkit Articles</h2>
+                    {articles}
+                </div>
+        </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="margin-top: 15px;">
+                <img src="../home/images/messages.jpg" width="48" height="48" alt="" style="width: 48px; height: 48px; float:left;">
+                <div style="padding-left: 60px">
+                    <h2>Latest Messages</h2>
+                    {messages}
+                    <p style="margin-top: 5px">
+                    <a href="https://forums.drunkit.co.uk">Drunkit Forums</a></p>
+
+                </div>
+        </div>
+        </div>
+    </div>
+    </div>

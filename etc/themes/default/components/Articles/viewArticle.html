@@ -1,0 +1,10 @@
+<h1>[var name=Title]</h1>
+<p style="margin: 0px">Posted by <a href="/bin/profile.cgi?user=[var name=UserName]">[var postField=FriendlyName]</a> on [var parseTime=Date?date]. [var name=NumberOfComments] <a href="#comments">[var comments=NumberOfComments]</a>.</p>
+
+<p>
+[var parseHexAndHtml=Article]
+</p>
+
+<h2><a id="comments"></a>Comments</h2>
+<p style="margin: 0px">[var name=NumberOfComments] [var comments=NumberOfComments] posted. <a href="/bin/articles?a=postComment&amp;id=[var info=threadNumber]">Post a comment</a>.<p>
+[insertComments]

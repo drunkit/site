@@ -1,0 +1,80 @@
+		</div>
+		<div id="sideBar">
+			<div id="navigationBar">
+				<h2 class="navigationBarTitle">
+					Menu
+				</h2>
+				<div class="navigationLinks">
+					<dl>
+						<dt>
+							<a href="https://drunkit.co.uk/bin/welcome" class="navigationLink">Home</a>
+						</dt>
+							<dd>
+								<a href="https://drunkit.co.uk/bin/welcome" class="navigationLink">&#187; Drunkit Home</a>
+								<a href="https://drunkit.co.uk/bin/content/page,pictures/" class="navigationLink">&#187; Pictures</a>
+							</dd>
+
+						<dt class="next">
+							<a href="https://forums.drunkit.co.uk/" class="navigationLink">Forums</a>
+						</dt>
+							<dd>
+								<a href="https://forums.drunkit.co.uk/" class="navigationLink">&#187; Browse the forums</a>
+								<a href="https://forums.drunkit.co.uk/search" class="navigationLink">&#187; Search the forums</a>
+							</dd>
+						<dt class="next">
+							<a href="https://drunkit.co.uk/bin/articles" class="navigationLink">Articles</a>
+						</dt>
+							<dd>
+								<a href="https://drunkit.co.uk/bin/articles" class="navigationLink">&#187; Browse articles</a>
+								<a href="https://drunkit.co.uk/bin/articles?a=new" class="navigationLink">&#187; Write an Article</a>
+								<a href="https://drunkit.co.uk/bin/articles?a=edit" class="navigationLink">&#187; Edit an article</a>
+							</dd>
+					</dl>
+				</div>
+			</div>
+			[include condition=userName parse=loggedIn-template.html elseParse=loggedOut-template.html]
+			<div id="pollBar">[include poll]</div>
+		</div>
+		<div id="showMenuOption" style="display: none;">
+			<table class="sideopen"><tr><td class="sideopen" onclick="toggleDisplay();" title="Open the main menu"><img src="/images/open.gif" alt="" title="Open the main menu" /></td></tr></table>
+		</div>
+		<script type="text/javascript"><!--
+			if (document.getElementById) {
+				mainBodyElement = document.getElementById("mainBody");
+				documentBodyElement = document.getElementById("documentBody");
+				menuOption = document.getElementById("showMenuOption");
+				navigationMenu = document.getElementById("sideBar");
+				originalState = mainBodyElement.style.marginLeft;
+				document.getElementById("toggleDisplay").style.display = "";
+				if (getCookie("drunkit_showMenu") == 0) {
+					toggleDisplay();
+				}
+			}
+			toggleDisplay();
+			toggleDisplay();
+			function toggleDisplay () {
+				if (document.getElementById) {
+					if (navigationMenu.style.display == "none") {
+						navigationMenu.style.display = "";
+						menuOption.style.display = "none";
+						mainBodyElement.style.marginLeft = originalState;
+						mainBodyElement.style.width = "100%";
+						documentBodyElement.style.width = "75%";
+						setCookie("drunkit_showMenu", 1, 500);
+					}
+					else {
+						documentBodyElement.style.width = "95%";
+						mainBodyElement.style.marginLeft = "1.35em";
+						navigationMenu.style.display = "none";
+						menuOption.style.display = "";
+						setCookie("drunkit_showMenu", 0, 500);
+					}
+				}
+			}
+
+
+			width = 0;
+			fontSize = 0;
+		//--></script>
+	</body>
+</html>

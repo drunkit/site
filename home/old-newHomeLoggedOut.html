@@ -1,0 +1,152 @@
+<h1>Welcome to Drunkit!</h1>
+<!--<p style="margin: 0px">The ultimate website for all your time-wasting needs.</p>
+
+<h1 style="margin-top: 20px;">Drunkit Stuff</h1>-->
+
+<table cellspacing="0" cellpadding="0" summary="Drunkit's home page" style="margin-top: 15px; margin-left: 10px;">
+	<tr>
+					<td colspan="2" width="280">
+						<p style="margin: 0px; text-align: right;">
+							<img src="../home/images/login.jpg" alt="" style="margin-right: 10px;">
+						</p>
+					</td>
+					<td colspan="2">
+						<h2>Log in</h2>
+							<p style="margin: 0px">
+								To enjoy Drunkit at it's best, please login:
+							</p>
+							<form action="doLogin.cgi" method="post" style="margin: 0px; margin-top: 10px">
+							<p class="first">
+								<input type="hidden" name="redirect" value="home">
+							</p>
+							<table cellspacing="0" cellpadding="0" border="0"><tr><td class="label">Login: <td><input type="text" name="user" size="10" style="border: 1pt solid #000080; font-family: tahoma, serif; font-size: 8pt;">
+								<tr><td class="label">Password:<td><input type="password" name="pass" size="10" style="border: 1pt solid #000080; font-family: tahoma, serif; font-size: 8pt;">
+								<input type="submit" value="Go" style="border: 1pt solid #000080; font-family: tahoma, serif; font-size: 8pt; background-color: #FFFFFF; color: #000080; width: 20px"></table>
+						</form>
+					</td>
+				</tr>
+
+</table>
+<table cellspacing="0" cellpadding="0" summary="Drunkit's home page" style="margin-top: 15px; margin-left: 10px;">
+	<col width="280" />
+	<col width="*" />
+
+	<tr>
+		<!-- left column -->
+		<td valign="top">
+			<table>
+			<col width="50">
+			<col width="*">
+							<tr>
+					<td valign="middle">
+						<p style="margin: 0px">
+							<img src="../home/images/announcements.jpg" width="48" height="48" alt="">
+						</p>
+					</td>
+					<td valign="top">
+						<h2>Announcements</h2>
+						<p style="margin: 0px;">{announcement}</p>
+						<p><a href="controlPanel?area=editannouncements" class="">Edit</a> announcements</p>
+					</td>
+				</tr>
+				<tr>
+					<td valign="middle">
+						<p style="margin: 0px">
+							<img src="../home/images/search.jpg" width="48" height="48" alt="">
+						</p>
+					</td>
+					<td valign="top" style="padding-top: 10px;">
+						<h2>Search</h2>
+						<p style="margin: 0px;">
+							<form id="sideSearchForm" action="https://forums.drunkit.co.uk/search.php?mode=results" method="post">
+								<p style="margin: 0px;">
+									Search the forums:<br />
+									<input type="text" name="search_keywords" style="width: 9em; border: 2px solid #000000; background-color: #FFFFFF; font-family: tahoma, sans-serif; font-size: 1em; margin-top: 6px;" />
+									<input type="submit" class="sideEdit" style="font-size: 1em; margin: 0px; height: 1.65em; width: 2.6em; color: black; background-color: white; border: 2px solid black; font-family: tahoma, sans-serif" value="Go" />
+								</p>
+								<p><a href="https://forums.drunkit.co.uk/search">Advanced</a> search.</p>
+							</form>
+						</p>
+					</td>
+				</tr>
+				<!--<tr>
+					<td valign="middle">
+						<p style="margin: 0px">
+							<img src="../home/images/themes.jpg" width="48" height="48" alt="">
+						</p>
+					</td>
+					<td valign="top" style="padding-top: 10px;">
+						<h2>Theme</h2>
+						<p style="margin: 0px;">
+							Enhance your drunkit experience by changing the theme to suit your taste.
+							<form action="changetheme" method="get">
+								<input type="hidden" name="redirect" value="welcome" />
+								{themelist} <input type="submit" class="sideEdit" style="width: 30px; margin: 0px; color: black; background-color: white; border: 1px solid black; font-family: tahoma, sans-serif" value="Go" />
+							</form>
+						</p>
+					</td>
+				</tr>-->
+				<tr>
+					<td valign="middle">
+						<p style="margin: 0px">
+							<img src="../home/images/quote.jpg" width="48" height="48" alt="">
+						</p>
+					</td>
+					<td valign="top" style="padding-top: 10px;">
+						<h2>Drunkit Quote</h2>
+						<p style="margin: 0px;">
+							{quote}
+						</p>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<!-- right column -->
+		<td valign="top">
+			<table>
+			<col width="50">
+			<col width="*">
+				<tr>
+					<td valign="middle">
+						<p style="margin: 0px">
+							<img src="../home/images/news.jpg" width="48" height="48" alt="">
+						</p>
+					</td>
+					<td valign="top">
+						<h2>Drunkit Articles</h2>
+						<ul style="margin-top: 0px; padding-top: 0px; padding-left: 20px;">
+						{articles}</ul><p>
+					</td>
+				</tr>
+				<tr>
+					<td valign="middle">
+						<p style="margin: 0px">
+							<img src="../home/images/messages.jpg" width="48" height="48" alt="">
+						</p>
+					</td>
+					<td valign="top">
+						<h2>Latest Messages</h2><ul style="margin-top: 0px; padding-top: 0px; padding-left: 20px;">
+						{messages}</ul><p>
+						<a href="https://forums.drunkit.co.uk">Drunkit Forums</a>
+					</td>
+				</tr>
+				<!--<tr>
+					<td valign="middle">
+						<p style="margin: 0px">
+							<img src="../home/images/controlpanel.jpg" width="48" height="48" alt="">
+						</p>
+					</td>
+					<td valign="top" style="padding-top: 10px;">
+						<h2>Control Panel</h2>
+						<p style="margin: 0px;">
+							<form action="controlPanel" method="post">
+								Configure your Drunkit account, articles and more.
+								<input type="submit" class="sideEdit" style="width: 30px; margin: 0px; color: black; background-color: white; border: 1px solid black; font-family: tahoma, sans-serif" value="&gt;&gt;" />
+							</form>
+						</p>
+					</td>
+				</tr>-->
+			</table>
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,12 @@
+answer1=1
+1=Great!
+answer2=2
+2=Fantastic!
+3=Brilliant!
+answer4=3
+4=Fab!
+answer5=1
+5=Super!
+answer6=5
+6=Mega!
+Question=Drunkit being back is...

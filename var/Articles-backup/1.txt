@@ -1,0 +1,7 @@
+article=Welcome to the all new Drunkit.com!%0A%0ANow that this is all up and running, might I take this oppertunity to thank everyone who has come back and started posting again. I must admit I find it both fantastic and wonderful that so many people have signed up for accounts already!%0A%0AAnyway, enough of my rhetoric, I'm sure you're here to get info on what Drunkit does best - keeps in contact, organise nights out and generally have a pleasant time. May I wish you all a happy new year. In order to Christen this new Drunkit.com, I shall ask:%0A"What is everyone doing new years eve?"%0A
+numberofcomments=2
+description=An introduction to the all new drunkit
+username=matt
+title=Welcome!
+date=1040871721
+comments=;Matt:PS I do apologise for our advertising campaign (via SMS), but it's got to be done. Plus, most people love it!;matt:Semicolons%3B work%3B properly%3B now%3B too%3B and%3B don't%3B fuck%3B up%3B everything!%0A%0A--Matt

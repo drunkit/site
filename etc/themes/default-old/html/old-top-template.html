@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-gb">
+	<head>
+		<title>
+			[var info=Title]
+		</title>
+		<meta http-equiv="pics-label" content='(pics-1.1 "https://www.icra.org/ratingsv02.html" comment "ICRAonline EN v2.0" l gen true for "https://drunkit.co.uk/" r (nz 1 vz 1 la 1 lb 1 lc 1 ob 1 og 1 ca 1) "https://www.rsac.org/ratingsv01.html" l gen true for "https://forums.drunkit.co.uk/" r (n 0 s 0 v 0 l 4))'>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<script src="[var info=themeDir]/javascript/java.js" type="text/javascript"></script>
+		<link href="[var info=themeDir]/styles/styles.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="/favicon.png" type="image/png">
+		<script type="text/javascript"><!--
+			function setCookie (cookieName, cookieValue, nDays) {
+				var today = new Date();
+				var expire = new Date();
+				if ((nDays == null) || (nDays == 0)) {
+					nDays=1;
+				}
+				expire.setTime(today.getTime() + 3600000*24*nDays);
+				document.cookie = cookieName+"="+escape(cookieValue) + ";expires="+expire.toGMTString();
+			}
+
+			function getCookie (cookieName) {
+				if(document.cookie) {
+					var index = document.cookie.indexOf(cookieName);
+					if (index != -1) {
+						var countbegin = (document.cookie.indexOf(cookieName+"=", index) + 1);
+						var countend = document.cookie.indexOf(";", index);
+						if (countend == -1) {
+							countend = document.cookie.length;
+						}
+						return document.cookie.substring(countbegin + cookieName.length, countend);
+					}
+				}
+				return null;
+			}
+
+
+			function toggleSideBar () {
+				if (document.getElementById) {
+					sideBarElement = document.getElementById("sideBar");
+					sideStripElement = document.getElementById("sideStrip");
+					mainBodyElement = document.getElementById("mainBody");
+					if (sideBarElement.style.display != "none") {
+						sideBarElement.style.display = "none";
+						sideStripElement.style.display = "none";
+						mainBodyElement.style.left = "0px";
+						setCookie("drunkit_sideBar", false, 500);
+					}
+					else {
+						sideBarElement.style.display = "";
+						sideStripElement.style.display = "";
+						mainBodyElement.style.left = "130px";
+						setCookie("drunkit_sideBar", true, 500);
+					}
+				}
+			}
+
+			function checkSideBar () {
+				if (getCookie("drunkit_sideBar") == "false") {
+					toggleSideBar();
+				}
+			}
+		//-->
+		</script>
+	</head>
+	<body>
+		<div class="topheader" style="background-image: url('[var info=imagesDir]/topbgImage.gif');">
+			<img src="[var info=imagesDir]/drunkitTopLogo.jpg" alt="Welcome to drunkit.co.uk" style="width: 192px; height: 65px; position: absolute; left: 0px; top: 0px;"><img src="[var info=imagesDir]/topMarker.gif" alt="" style="width: 200px; height: 65px; position: absolute; left: 192px; top: 0px;"><img src="[var info=imagesDir]/drunkitSecondTransition.jpg" style=" position: absolute; width: 200px; height: 65px; left: 392px; top: 0px;" alt="">
+			[include condition=userName parse=loggedIn-template.html elseParse=loggedOut-template.html]
+		</div>
+
+		<div class="middlebar" style="background-image: url('[var info=imagesDir]/heightMarker.gif');"><img src="[var info=imagesDir]/heightMarker.gif" style="vertical-align: middle" alt="">
+			[var info=timeAndDate]
+			<div class="articlesContainer">
+				<a href="https://forums.drunkit.co.uk/" class="panelLink">&nbsp;Forum Index&nbsp;</a>
+				<a href="https://forums.drunkit.co.uk/search.php?search_id=newposts" class="panelLink">&nbsp;Unread Posts&nbsp;</a>
+				<a href="javascript:toggleSideBar();" class="panelLink">&nbsp;Toggle Sidebar&nbsp;</a>
+				<!--
+				<a href="[DocumentRootBin]/articles?a=new" class="panelLink">&nbsp;New Article&nbsp;</a>
+				<a href="[DocumentRootBin]/articles?a=edit" class="panelLink">&nbsp;Edit Article&nbsp;</a>
+				<a href="[DocumentRootBin]/messages?a=recent&amp;show=20" class="panelLink">&nbsp;Recent Messages&nbsp;</a>
+				-->
+			</div>
+		</div>
+
+		<div id="sideBar" class="sidePanel">
+			<div class="linkContainer">
+				<a href="[DocumentRootBin]/home" class=plink onMouseOver="moveOver(home); return true;" onFocus="return true;" onMouseOut="moveOut(home); return true;" onBlur="return true;"><img name="home" src="[var info=imagesDir]/home.gif" style="border: 0px; width: 115px; height: 25px" alt="A link to go Home"></a><br>
+				<a href="[DocumentRootBin]/articles" class=plink onMouseOver="moveOver(features); return true;" onMouseOut="moveOut(features); return true;" onFocus="return true;" onBlur="return true;"><img name="features" src="[var info=imagesDir]/features.gif" style="border: 0px; width: 115px; height: 25px" alt="A link to see all drunkit articles"></a><br>
+				<a href="https://forums.drunkit.co.uk/" class=plink onMouseOver="moveOver(messages); return true;" onMouseOut="moveOut(messages); return true;" onFocus="return true;" onBlur="return true;"><img name="messages" src="[var info=imagesDir]/messages.gif" style="border: 0px; width: 115px; height: 25px" alt="A link to the Drunkit message board"></a><br>
+				<a href="[DocumentRootBin]/content/page,pictures/" class=plink onMouseOver="moveOver(pictures); return true;" onMouseOut="moveOut(pictures); return true;" onFocus="return true;" onBlur="return true;"><img name="pictures" src="[var info=imagesDir]/pictures.gif" style="border: 0px; width: 115px; height: 25px" alt="Frightening pictures of terrifying members!"></a><br>
+				<img src="[var info=imagesDir]/line.gif" alt=""><br /><br />
+				<h3 style="font-family: tahoma, sans-serif; margin: 0px; margin-bottom: 15px; font-size: 9pt; color: #FFFFFF">Search The Forums</h3>
+				<form id="sideSearchForm" action="https://forums.drunkit.co.uk/search.php?mode=results" method="POST">
+					<input type="text" name="search_keywords" size="30" style="width: 75px; border: 1px solid #000000; background-color: #FFFFFF; font-family: tahoma, sans-serif; font-size: 8pt;" />
+					<input type="submit" class="sideEdit" style="width: 30px; margin: 0px; color: black; background-color: white; border: 1px solid black; font-family: tahoma, sans-serif" value="Go" />
+				</form>
+				<br />
+
+			[include poll]
+			</div>
+		</div>
+
+		<div id="sideStrip" style="background-image: url('[var info=imagesDir]/sideMarker.gif')" class="sideStrip"></div>
+
+		<div id="mainBody" class="mainbody">

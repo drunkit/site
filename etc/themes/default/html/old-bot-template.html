@@ -1,0 +1,17 @@
+
+		</div>
+		<script type="text/javascript"><!--
+			window.onresize = resizeDocument;
+			function resizeDocument() {
+				thisHeight = 0;
+				thisHeight = (document.body.scrollHeight - 87);
+				if (document.body.offsetHeight > thisHeight) {
+					thisHeight = (document.body.offsetHeight - 87);
+				}
+				// Damn IE :-p
+				document.getElementById("sideBar").style.height = thisHeight;
+			}
+			resizeDocument();
+		//--></script>
+	</body>
+</html>

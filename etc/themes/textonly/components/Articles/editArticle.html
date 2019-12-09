@@ -1,0 +1,43 @@
+<h1>Edit Article</h1>
+<p style="margin: 0px">Make corrections, adjustments and addmendments here!</p>
+
+<form method="post" action="[var info=thisFileName]" style="margin: 0px">
+<input type="hidden" name="a" value="editArticle">
+<input type="hidden" value="[var info=threadNumber]" name="article">
+
+<table border="0" cellpadding="0" border="0">
+	[advartedit]
+	<tr>
+		<td width="100" class="label">
+			Title:
+		</td>
+		<td width="200">
+			<input type=text name="Title" size="35" class="cooledit" value="[var name=Title]">
+		</td>
+	</tr>
+	<tr>
+		<td width="100" class="label">
+			Description:
+		</td>
+		<td width=250>
+			<input type="text" name="Description" size="35" value="[var Hex=Description]" class=cooledit>
+		</td>
+	</tr>
+	<tr>
+		<td width="100" valign="top" class="label">
+			Article:
+		</td>
+		<td width="250">
+			<textarea name="Article" COLS="55" ROWS="7" class="cooledit">[var parseHex=Article]</textarea>
+		</td>
+	</tr>
+	<tr>
+		<td witdh="100" valign="top">
+			&nbsp;
+		</td>
+		<td width=250>
+			[var htmlButton=submit?Create Article]
+		</td>
+	</tr>
+</table>
+</form>
