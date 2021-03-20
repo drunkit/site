@@ -1,0 +1,14 @@
+#top_nav, #top_bar {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: none !important;
+    border-bottom-left-radius: none !important;
+    border-bottom-right-radius: none !important;
+}
+
+.searchFormContainer h3 {
+    text-transform: none !important;
+    border: 0 !important;
+}
