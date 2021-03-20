@@ -71,7 +71,7 @@ if ($ENV{HTTP_USER_AGENT} =~ m/^Links/i) {
 else {
 	print <<"	endCookie";
 Content-Type: text/html; charset=utf-8
-Set-Cookie: userId=$userString; path=/; expires=Sun, 16-Dec-2020 21:08:33 GMT
+Set-Cookie: userId=$userString; path=/; expires=Sun, 16-Dec-2030 21:08:33 GMT
 Date: Tue, 17 Dec 2002 21:08:33 GMT
 Location: $redirect
 
