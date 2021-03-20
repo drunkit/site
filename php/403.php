@@ -7,8 +7,9 @@
 
 	$userlevel = $userinfo->get("userlevel");
 	
-	if (($userlevel < 3) || (!is_dir($_SERVER['DOCUMENT_ROOT'].$_SERVER['REDIRECT_URL']))) {
-		printXhtmlHeader();
+    if (($userlevel < 3) || (!is_dir($_SERVER['DOCUMENT_ROOT'].$_SERVER['REDIRECT_URL']))) {
+		$topTemplate = new Template("top-template.html");
+		$topTemplate->printTemplate();
 		?>
 		<h1>Permission Deined!</h1>
 		<p style="margin: 0px;">You have tried to access an area of Drunkit that is not for web viewing</p>
@@ -23,14 +24,11 @@
 		
 		?> button on your browser to go back to the page you came from. If you came here from another web site, our link may have unfortunately changed. In this case, please visit our <a href="https://drunkit.co.uk">home page</a> and navigate from there.</p>
 <?php
-
-		printXhtmlFooter();
+	$botTemplate = new Template("bot-template.html");
+	$botTemplate->printTemplate();
 
 	}
 	else {
-		
-				
-				
 		$nameSort = "an";
 		$sizeSort = "as";
 		$modSort = "am";
@@ -42,7 +40,12 @@
 				$tempQueryArray = preg_split("/=/", $query);
 				$query_string[$tempQueryArray[0]] = $tempQueryArray[1];
 			}
-		}
+        }
+
+        if (!isset($query_string)) {
+            $query_string['s'] = "an";
+
+        }
 
 		if (($query_string['s'] == "an") || (!$query_string['s'])) {
 			$query_string['s'] = "an";
@@ -56,7 +59,7 @@
 		}
 		
 		
-		$directoryList = "";
+		$directoryList = [];
 		
 		if ($handle = @opendir($_SERVER['DOCUMENT_ROOT'].$_SERVER['REDIRECT_URL'])) {
 			while (false !== ($file = readdir($handle))) {
