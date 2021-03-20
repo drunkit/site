@@ -1,3 +1,6 @@
 forums3
 forums-2
 old-forums
+*.db
+.DS_Store
+*.swp

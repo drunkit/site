@@ -8,7 +8,9 @@ my $query = new CGI;
 my $startingPath = &getToDocumentRoot($ENV{SCRIPT_NAME});
 
 if ($query->param('user')) {
-	&doLogin($query->param('user'),$query->param('pass'));
+    my $user = $query->param('user');
+    my $pass = $query->param('pass');
+	&doLogin($user,$pass);
 }
 else {
 	&loginError();

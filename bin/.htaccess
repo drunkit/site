@@ -1,6 +1,6 @@
 ErrorDocument 404 /bin/404.cgi
 DirectoryIndex index.php
-options -indexes +multiviews +execcgi
-AddType cgi-script .cgi
+options -indexes +execcgi
+#AddType cgi-script .cgi
 PerlSetEnv PERL5LIB /srv/http/drunkit/bin
 #PerlSwitches -I/srv/http/drunkit/bin
