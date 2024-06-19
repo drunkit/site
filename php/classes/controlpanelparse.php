@@ -10,7 +10,7 @@ class ControlPanelParse {
 	var $controlPanel;
 
 
-	function ControlPanelParse ($filename = "data/controlpanel/controlpanel") {
+	function __construct ($filename = "data/controlpanel/controlpanel") {
 		$this->fileContents = file($filename);
 		$this->controlPanel = new ControlPanel();
 	}

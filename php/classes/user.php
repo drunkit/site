@@ -2,7 +2,7 @@
 include_once "io.php";
 
 class user extends io {
-	function user ($username) {
+	function __construct ($username) {
 		$this->filename = "data/users/".strtolower($username);
 		$this->constructHash();
 	}

@@ -7,7 +7,7 @@ class io {
 	var $hash;
 
 	# Constructor
-	function io ($inFilename) {
+	function __construct ($inFilename) {
 		$this->filename = strtolower($inFilename);
 		$this->constructHash();
 	}

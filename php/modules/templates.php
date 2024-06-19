@@ -14,7 +14,7 @@
 		var $infoVarConstructed;
 		var $themeDir;
 		
-		function Template ($inTemplateFile) {
+		function __construct ($inTemplateFile) {
 			$this->templateFile = getThemeDir().$inTemplateFile;		
 		}
 		
@@ -157,7 +157,7 @@
 		var $pollHtml;
 		var $pollNumber;
 	
-		function ParsePoll () {
+		function __construct () {
 			$pollSettings = new SettingsFile(getSettingsDir()."/Poll/pollSettings.txt");
 			$this->pollNumber = $pollSettings->get("pollnumber");
 			

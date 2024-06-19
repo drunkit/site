@@ -4,7 +4,7 @@ include_once "io.php";
 class article extends io {
 	var $id;
 	var $settings;
-	function article ($id = "") {
+	function __construct ($id = "") {
 		if (!$id) {
 			$id = $this->getFreeArticleId();
 		}

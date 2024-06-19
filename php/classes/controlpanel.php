@@ -9,7 +9,7 @@ class Controlpanel extends base {
 	var $userArray;
 	var $userTextArray;
 	
-	function Controlpanel () {
+	function __construct () {
 		 $this->articleSettings = new Settings("articles");
 		 $this->userArray = array(1,2,3,4);
 		 $this->userTextArray = array("Regular User","Privilaged User","Moderator","Administrator");

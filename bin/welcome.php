@@ -21,8 +21,9 @@
 	
 
 	// First get the message board entries
-	$mySql = @getMessagesArray();
+	//$mySql = @getMessagesArray();
     $messages = "<ul>";
+	/*
 	if ($mySql) {
 		foreach ($mySql as $query) {
 			$topic = htmlentities($query['topic_title'], ENT_QUOTES, "UTF-8");
@@ -36,16 +37,17 @@
             $messages .= "<li><a href=\"https://forums.drunkit.co.uk/viewtopic.php?t=".$topicId."#".$postId."\" class=\"ddoption\">".$topic."</a> - posted in <a href=\"https://forums.drunkit.co.uk/viewforum.php?f=$forum_id\" class=\"ddoption\">$forum</li>\n";	
         }
     }
+		*/
     $messages .= "</ul>";
 	
 	// Now get the latest articles:
 	$totalArticles = new SettingsFile("../etc/settings/Articles/Articles.txt");
-    $totalArticles = $totalArticles->get("numberofarticles");
+    $totalArticles = (int)$totalArticles->get("numberofarticles");
     $articles = "<ul>";
 	for ($i = $totalArticles; $i > ($totalArticles - 8); $i--) {
         $article = new SettingsFile("../var/Articles/".$i.".txt");
         $articles .= "<li><a href=\"https://drunkit.co.uk/bin/article/id,".$i."/\" class=\"ddoption\">".$article->get("title")."</a> - ".$article->get("description")."</li>";
-		if ((time() - $article->get("date")) < 604801) {
+		if ((time() - ((int)$article->get("date"))) < 604801) {
 			$articles .= " - <b>New!</b>";
 		}
     }

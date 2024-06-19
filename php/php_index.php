@@ -1,4 +1,4 @@
-<?
+<?php
 	require "modules/common.php";
 	require "modules/templates.php";
 
@@ -32,7 +32,7 @@
 
 <p>Stay tuned for more news...</p>
 
-<?	
+<?php
 	$botTemplate = new Template("bot-template.html");
 			
 	$botTemplate->printTemplate();

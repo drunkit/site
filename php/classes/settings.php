@@ -5,7 +5,7 @@ class settings extends io {
 
     public $test = "moo";
 
-	function settings ($settingsFile) {
+	function __construct ($settingsFile) {
         $this->filename = "data/settings/".strtolower($settingsFile);
         $this->constructHash();
 	}

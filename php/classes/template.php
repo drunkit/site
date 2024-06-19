@@ -6,7 +6,7 @@
 		var $filename;
 		var $templateContents;
 		
-		function Template ($templateFile, $render = true, $stylesheet = false) { # stylesheet parsing option possible in future
+		function __construct ($templateFile, $render = true, $stylesheet = false) { # stylesheet parsing option possible in future
 			$this->filename = $this->getTemplateRoot().$templateFile;
 			if ($render) {
 				$this->reloadTemplate();
